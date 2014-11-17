@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE actions PUBLIC "-//WPH-IF" "if.dtd">
+<if>
+	<package namespace="/">
+		<!-- test -->
+		<action name="login" class="i.test.Login"></action>
+		
+		<action name="register" class="ouc.jeep.action.RegisterAction"></action>
+	</package>
+</if>

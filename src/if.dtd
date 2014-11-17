@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT if (package*)>
+<!ELEMENT package (action*)>
+<!ATTLIST package namespace CDATA #REQUIRED>
+<!ELEMENT action (database?)>
+<!ATTLIST action name CDATA #REQUIRED>
+<!ATTLIST action class CDATA #REQUIRED>
+<!ATTLIST action type (plain|html|xml|json) "plain">
+<!ELEMENT database EMPTY>
+<!ATTLIST database auto (false|true) "false">
+<!ATTLIST database transaction (false|true) "false">
